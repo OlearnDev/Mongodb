@@ -58,6 +58,22 @@ Module 2 ---------------------------------------------------------
 
 Download and install :
 	- Mongoshell : Shell to access mongodb cluster as psql 
+	  conn string: mongosh "mongodb+srv://cluster0.ptmr17.mongodb.net/" --apiVersion 1 --username admin
+	  
+	  Open a dos or other terminal. Check mongosh is known in the env.
+	  run:
+		
+		C:\Users\oline>mongosh "mongodb+srv://cluster0.ptmr17.mongodb.net/" --apiVersion 1 --username admin
+		Enter password: ******
+		Current Mongosh Log ID: 6902748933be90de87cebea3
+		Connecting to:          mongodb+srv://<credentials>@cluster0.ptmr17.mongodb.net/?appName=mongosh+2.5.8
+		Using MongoDB:          8.0.15 (API Version 1)
+		Using Mongosh:          2.5.8
+
+		For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+Atlas atlas-x0mu64-shard-0 [primary] test>
+	
 	- Mongodb compass: GUI you can use to connect to cluster0 created in atlas. 
 	
 For drivers, go to: mongodb.com/doc/drivers 
