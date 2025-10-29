@@ -56,4 +56,9 @@ Module 2 ---------------------------------------------------------
   Mongo supports polymorphic data : files and value types can vary across docs within a collection  
   
 
+Download and install :
+	- Mongoshell : Shell to access mongodb cluster as psql 
+	- Mongodb compass: GUI you can use to connect to cluster0 created in atlas. 
+	
 For drivers, go to: mongodb.com/doc/drivers 
+
