@@ -1,0 +1,59 @@
+---------- MongoDB on coursera
+
+https://www.coursera.org/learn/introduction-to-mongodb/home/module/3
+
+Email : olivierinn.kouame@gmail.com
+
+Module 1 ---------------------------------------------------------
+
+On MongoDB Atlas : https://cloud.mongodb.com/v2/6859a52156f6810bac94e08b#/clusters
+user 			 : admin/graces
+
+
+You can conn to mongodb using :
+
+	- Mongoshell
+	- Application   : You conn to an app using a driver for app (ex: Nodejs v4.1)
+	- Mongo compass
+	
+NB: Connexion string is similar for these 3 types of conn.
+
+Conn string syntaxe : 
+
+	- Using DNS list / standard format 	
+	
+		mongodb+srv://<username>:<password>@cluster0.usqsf.mongodb.net/?retryWrites=true&w=majority
+		
+		Default port : 27017 if not specified in the conn string 
+
+	- Using shell: 
+	
+		Download and install mongosh from mongodb atlas gui. Add install path in env path 
+
+		$mongosh "mongodb+srv://cluster0.2ngnvn9.mongodb.net/myFirstDatabase" --apiVersion 1 --username admin
+		
+		C:\Users\oline>mongosh "mongodb+srv://cluster0.3uxvs59.mongodb.net/" --apiVersion 1 --username admin
+	
+		Enter password: ******
+		Current Mongosh Log ID: 6859fa2f4782639937748a5e
+		Connecting to:          mongodb+srv://<credentials>@cluster0.3uxvs59.mongodb.net/?appName=mongosh+2.5.3
+		Using MongoDB:          8.0.10 (API Version 1)
+		Using Mongosh:          2.5.3
+
+		For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+		Atlas atlas-qf340v-shard-0 [primary] test>
+			
+	- 
+	C:\Users\oline\AppData\Local\Programs\mongosh\
+	
+Module 2 ---------------------------------------------------------
+
+  Document object 
+  
+  Mongodb stores data in documents which are stored as bson. 
+  Compared to json, bson stores other data types like date, objectid and other data types 
+  Mongo supports polymorphic data : files and value types can vary across docs within a collection  
+  
+
+For drivers, go to: mongodb.com/doc/drivers 
